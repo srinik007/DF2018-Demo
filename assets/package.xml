@@ -5,8 +5,9 @@
     <name>CustomApplication</name>
   </types>
   <types>
+    <members>QuicKartController</members>
     <members>TestClass</members>
-	<members>SocialC</members>
+	  <members>SocialC</members>
     <name>ApexClass</name>
   </types>
   <types>
@@ -16,7 +17,8 @@
     <name>CustomObject</name>
   </types>
   <types>
-    <members>Information__c</members>
+    <members>QuicKart</members>
+	<members>Information__c</members>
     <members>Tower__c</members>
     <members>Add</members>
 	<members>Employee__c</members>
@@ -25,16 +27,24 @@
   </types>
   <types>
     <members>LDS_Add</members>
-	<members>SampleCmp</members>
-	<members>Sample2</members>
-	<members>MultiSelectList</members>
-	<members>SocialConnect</members>
+    <members>SampleCmp</members>
+    <members>Sample2</members>
+    <members>MultiSelectList</members>
+    <members>SocialConnect</members>
     <name>AuraDefinitionBundle</name>
   </types>
   <types>
-    <members>Employee_Record_Page2</members>
-	<members>Employee_Services_UtilityBar</members>
+    <members>QuicKart</members>
+	  <members>Employee_Record_Page2</members>
+	  <members>Employee_Services_UtilityBar</members>
     <name>FlexiPage</name>
+  </types>
+  <types>
+    <members>pubSubLib</members>
+    <members>qkartPage</members>
+    <members>qkartHeader</members>
+    <members>qkartItem</members>
+    <name>LightningComponentBundle</name>
   </types>
   <types>
     <members>Tower__c-Tower Layout</members>

@@ -1,0 +1,21 @@
+<template>
+    <div>
+        <div class="slds-grid">
+            <div class="slds-col slds-size_1-of-7">
+                <span class="slds-float_right fontSize slds-m-top_medium slds-m-right_small elementStyle1">QuicKart</span>
+            </div>
+            <div onkeyup={handleKeyUp} class="slds-col slds-size_4-of-7">
+                <lightning-input type="search" value={skey} class="inputStyle" placeholder="Search"></lightning-input>
+            </div>
+            <div class="slds-col slds-size_2-of-7 slds-m-top_medium slds-m-left_small">
+                <span class="slds-m-right_large">
+                    <lightning-button label="Orders" variant="base" onclick={myOrders}></lightning-button>
+                </span>
+                <lightning-icon icon-name="utility:cart" title="cartIcon"></lightning-icon>
+                <span class="slds-m-top_medium">
+                    <button class="slds-button slds-button_base" onclick={myCart}>cart({cart})</button>
+                </span>
+            </div>
+        </div>
+    </div>
+</template>

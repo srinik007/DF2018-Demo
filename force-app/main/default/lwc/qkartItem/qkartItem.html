@@ -1,0 +1,45 @@
+<template>
+    <template if:true={isAddCart}>
+        <lightning-card title="Product Details" icon-name="standard:product">
+            <p class="slds-m-around_medium">
+                <template for:each={cartStore} for:item="cItem">
+                    <div key={cItem.Id}>
+                        <lightning-layout multiple-rows>
+                            <div class="slds-grid slds-wrap">
+                                <div class="slds-col slds-size_1-of-2">
+                                    <lightning-layout-item padding="around-small">
+                                        <div>Product Code:</div>
+                                    </lightning-layout-item>
+                                    <lightning-layout-item padding="around-small">
+                                        <div>{cItem.ProductCode}</div>
+                                    </lightning-layout-item>
+                                </div>
+                                <div class="slds-col slds-size_1-of-2">
+                                    <lightning-layout-item padding="around-small">
+                                        <div>Product Name:</div>
+                                    </lightning-layout-item>
+                                    <lightning-layout-item padding="around-small">
+                                        <div>{cItem.Name}</div>
+                                    </lightning-layout-item>
+                                </div>
+                                <div class="slds-col slds-size_1-of-2">
+                                    <lightning-layout-item size="4" padding="around-small">
+                                        <lightning-combobox aria-setsize="5" name="quant" label="Quantity:" value={value}
+                                            placeholder="Select Quantity" options={options} onchange={handleChange}>
+                                        </lightning-combobox>
+                                    </lightning-layout-item>
+                                </div>
+                            </div>
+                            <lightning-layout-item class="slds-m-right_medium">
+                                <lightning-button label="Add To Cart" onclick={addKart}></lightning-button>
+                            </lightning-layout-item>
+                            <lightning-layout-item>
+                                <lightning-button label="Buy Now" onclick={buyNow}></lightning-button>
+                            </lightning-layout-item>
+                        </lightning-layout>
+                    </div>
+                </template>
+            </p>
+        </lightning-card>
+    </template>
+</template>
