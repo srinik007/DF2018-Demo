@@ -6,7 +6,8 @@
   </types>
   <types>
     <members>QuicKartController</members>
-	<members>TestClass</members>
+    <members>TestClass</members>
+	  <members>SocialC</members>
     <name>ApexClass</name>
   </types>
   <types>
@@ -21,26 +22,28 @@
     <members>Tower__c</members>
     <members>Add</members>
 	<members>Employee__c</members>
+	<members>Social</members>
     <name>CustomTab</name>
   </types>
   <types>
     <members>LDS_Add</members>
-	<members>SampleCmp</members>
-	<members>Sample2</members>
-	<members>MultiSelectList</members>
+    <members>SampleCmp</members>
+    <members>Sample2</members>
+    <members>MultiSelectList</members>
+    <members>SocialConnect</members>
     <name>AuraDefinitionBundle</name>
   </types>
   <types>
     <members>QuicKart</members>
-	<members>Employee_Record_Page2</members>
-	<members>Employee_Services_UtilityBar</members>
+	  <members>Employee_Record_Page2</members>
+	  <members>Employee_Services_UtilityBar</members>
     <name>FlexiPage</name>
   </types>
   <types>
     <members>pubSubLib</members>
-	<members>qkartPage</members>
-	<members>qkartHeader</members>
-	<members>qkartItem</members>
+    <members>qkartPage</members>
+    <members>qkartHeader</members>
+    <members>qkartItem</members>
     <name>LightningComponentBundle</name>
   </types>
   <types>

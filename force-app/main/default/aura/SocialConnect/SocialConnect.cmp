@@ -1,0 +1,22 @@
+<aura:component controller="SocialC" implements="flexipage:availableForAllPageTypes,force:appHostable">
+    <lightning:card title="Hello">
+        <aura:set attribute="actions">
+            <lightning:button label="New"/>
+        </aura:set>
+        <p class="slds-p-horizontal_small">
+            Card Body (custom component)
+        </p>
+    </lightning:card>
+    <div class="slds-p-top_xx-large">
+        <div class="slds-box">
+            <div class="slds-grid slds-gutters">
+                <div class="slds-col slds-size_1-of-4 slds-box">
+                    1
+                </div>
+                <div class="slds-col slds-size_3-of-4">
+                    2
+                </div>
+            </div>
+        </div>
+    </div>
+</aura:component>
