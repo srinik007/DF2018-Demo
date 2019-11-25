@@ -10,17 +10,10 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Employee Services</label>
     <navType>Standard</navType>
-    <tabs>QuicKart</tabs>
-    <tabs>emplAppPage</tabs>
-    <tabs>SampleOne</tabs>
     <tabs>Add</tabs>
-    <tabs>Employee</tabs>
     <tabs>Employee__c</tabs>
     <tabs>Information__c</tabs>
     <tabs>Tower__c</tabs>
-    <tabs>Social</tabs>
-    <tabs>Language_Course_Instructor__c</tabs>
-    <tabs>Language_Course__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Employee_Services_UtilityBar</utilityBar>
 </CustomApplication>

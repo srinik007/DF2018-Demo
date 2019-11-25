@@ -1,0 +1,33 @@
+<aura:component controller="TestClass" implements="flexipage:availableForAllPageTypes">
+    <aura:attribute name="Name" type="String" default=""/>
+    <aura:attribute name="Name2" type="String" default=""/>
+    <aura:attribute name="selectedSkill" type="String" default=""/>
+    <aura:attribute name="skillSet" type="List"/>
+    <aura:attribute name="skillSetDp" type="List"/>
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    
+    <lightning:input label="Name" aura:id="in" value="{!v.Name2}" type="String"/>
+    <h4 class="col">
+        Given Input:</h4> {!v.Name}
+    <br/>
+    
+    
+    <lightning:button label="Click Here" onclick="{!c.ClickHere}"/>
+    
+    <c:Sample2 input="{!v.Name2}"/>
+    <br/>
+    <!--
+    <lightning:select label="Skill Set" value="{!v.selectedSkill}">
+        <option text="-None-" value=""/>
+    	<aura:iteration items="{!v.skillSet}" var="ss">
+        	<option text="{!ss}" value="{!ss}"/>
+        </aura:iteration>
+    </lightning:select>-->
+    <br/>
+    {!v.selectedSkill}
+    <br/>
+    <aura:attribute name="options" type="List" />
+
+    <!--invoking MultiSelect component -->
+    <c:MultiSelectList pickListData="{!v.skillSet}" />
+</aura:component>

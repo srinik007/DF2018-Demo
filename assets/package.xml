@@ -5,13 +5,19 @@
     <name>CustomApplication</name>
   </types>
   <types>
+    <members>QuicKartController</members>
+	<members>TestClass</members>
+    <name>ApexClass</name>
+  </types>
+  <types>
     <members>Employee__c</members>
     <members>Tower__c</members>
 	<members>Information__c</members>
     <name>CustomObject</name>
   </types>
   <types>
-    <members>Information__c</members>
+    <members>QuicKart</members>
+	<members>Information__c</members>
     <members>Tower__c</members>
     <members>Add</members>
 	<members>Employee__c</members>
@@ -19,7 +25,23 @@
   </types>
   <types>
     <members>LDS_Add</members>
+	<members>SampleCmp</members>
+	<members>Sample2</members>
+	<members>MultiSelectList</members>
     <name>AuraDefinitionBundle</name>
+  </types>
+  <types>
+    <members>QuicKart</members>
+	<members>Employee_Record_Page2</members>
+	<members>Employee_Services_UtilityBar</members>
+    <name>FlexiPage</name>
+  </types>
+  <types>
+    <members>pubSubLib</members>
+	<members>qkartPage</members>
+	<members>qkartHeader</members>
+	<members>qkartItem</members>
+    <name>LightningComponentBundle</name>
   </types>
   <types>
     <members>Tower__c-Tower Layout</members>

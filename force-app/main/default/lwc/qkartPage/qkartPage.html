@@ -1,0 +1,20 @@
+<template>
+    <div>
+        <table>
+            <thead><tr>
+                <th>Product Code</th>
+                <th>Product Name</th>
+                <th>Cart</th>
+            </tr></thead>
+            <template for:each={prodRecords.data} for:item="rec">
+                <tbody key={rec.Id}>
+                    <tr class="slds-m-top_large slds-m-bottom_large">
+                        <td>{rec.ProductCode}</td>
+                        <td>{rec.Name}</td>
+                        <td><lightning-button label="Add Cart" name={rec.Id} variant="base" onclick={addToCart}></lightning-button></td>
+                    </tr>
+                </tbody>
+            </template>
+        </table>
+    </div>
+</template>
