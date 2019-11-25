@@ -1,0 +1,4 @@
+<aura:component >
+    <aura:attribute name="input" type="String" default=""/>
+    Child:{!v.input}
+</aura:component>

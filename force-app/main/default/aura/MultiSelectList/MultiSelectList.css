@@ -1,0 +1,18 @@
+.THIS {
+}
+.THIS .slds-checkbox_add-button .slds-checkbox_faux{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.THIS .slds-checkbox_add-button .slds-checkbox--faux{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.THIS .slds-checkbox--add-button .slds-checkbox_faux{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.THIS .slds-checkbox--add-button .slds-checkbox--faux{
+    width: 1.5rem;
+    height: 1.5rem;
+}
